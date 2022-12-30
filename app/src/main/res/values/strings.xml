@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">loba</string>
+    <string name="title">Learn Lingala</string>
+    <string name="menu_title">Home</string>
+    <string name="tenses">Tenses</string>
+    <string name="verbs">Verbs</string>
+    <string name="nouns_and_articles">Nouns and articles</string>
+    <string name="pronouns">Pronouns</string>
+    <string name="adjectives">Adjectives</string>
+    <string name="adverbs">Adverbs</string>
+    <string name="prepositions">Prepositions</string>
+    <string name="sentence_structure">Sentence structure</string>
+    <string name="others">Others</string>
+    <string name="share">Share</string>
+    <string name="contact_us">Contact us</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

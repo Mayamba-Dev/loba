@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/menu_title"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/nav_tenses"
+        android:title="@string/tenses"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_verbs"
+        android:title="@string/verbs"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_nouns_and_articles"
+        android:title="@string/nouns_and_articles"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_pronouns"
+        android:title="@string/pronouns"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_adjectives"
+        android:title="@string/adjectives"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_adverbs"
+        android:title="@string/adverbs"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/prepositions"
+        android:title="@string/prepositions"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_sentence_structure"
+        android:title="@string/sentence_structure"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_others"
+        android:title="@string/others"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_baseline_share_24"/>
+
+    <item
+        android:id="@+id/nav_message"
+        android:title="@string/contact_us"
+        android:icon="@drawable/ic_baseline_contact_mail_24"/>
+
+    </group>
+
+
+
+</menu>
