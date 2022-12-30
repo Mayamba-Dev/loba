@@ -18,6 +18,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
+
+        fun replaceFragment(tensesFragment : Fragment) {
+            val fragmentManager = supportFragmentManager
+
+            val fragmentTransaction = fragmentManager.beginTransaction()
+            fragmentTransaction.replace(R.id.frameLayout, tensesFragment)
+        }
+
+        replaceFragment(TensesFragment())
+
+
+
         drawerLayout = findViewById(R.id.drawerLayout)
         val navView : NavigationView = findViewById(R.id.nav_view)
 
