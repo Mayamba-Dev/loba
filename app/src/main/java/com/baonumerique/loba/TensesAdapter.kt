@@ -5,6 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 
 class TensesAdapter(private val sectionList : ArrayList<Tenses>) : RecyclerView.Adapter<TensesAdapter.MyViewHolder>() {
@@ -23,6 +25,16 @@ class TensesAdapter(private val sectionList : ArrayList<Tenses>) : RecyclerView.
         val currentItem = sectionList[position]
         holder.sectionImage.setImageResource(currentItem.sectionImage)
         holder.tvHeading.text = currentItem.sectionHeading
+        holder.itemView.setOnClickListener(object :View.OnClickListener{
+            override fun onClick(v: View?) {
+
+                val activity = v!!.context as AppCompatActivity
+                val presentTenseFragment = PresentTenseFragment()
+                activity.supportFragmentManager.beginTransaction().replace(R.id.drawerLayout,presentTenseFragment).addToBackStack(null).commit()
+
+            }
+
+        })
 
     }
 
