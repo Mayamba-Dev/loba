@@ -46,6 +46,8 @@ class TensesAdapter(private val sectionList : ArrayList<Tenses>) : RecyclerView.
                         .replace(R.id.tensesFragment, presentPerfectFragment).addToBackStack(null)
                         .commit()
 
+                    
+
                 }
 
             }
