@@ -2,6 +2,9 @@
     <string name="app_name">loba</string>
     <string name="title">Learn Lingala</string>
     <string name="menu_title">Home</string>
+
+
+    <!-- Left drawer menu items-->
     <string name="tenses">Tenses</string>
     <string name="verbs">Verbs</string>
     <string name="nouns_and_articles">Nouns and articles</string>
@@ -14,15 +17,34 @@
     <string name="share">Share</string>
     <string name="contact_us">Contact us</string>
     <string name="vocabulary">Vocabulary</string>
+
+
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="vocab_in_english_or_french">English or French</string>
     <string name="vocab_in_lingala">Lingala</string>
     <string name="tenses_list_item">present</string>
-    <string name="present_tense">Present tense</string>
-    <string name="present_perfect">Present perfect</string>
-    <string name="past_tense">Past Tense</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Tenses recyclerview items-->
+    <string name="present_tense">Present Tense</string>
+    <string name="present_continuous">Present Continuous</string>
+    <string name="present_perfect">Present Perfect</string>
+    <string name="simple_past">Simple Past</string>
+    <string name="past_perfect">Past Perfect</string>
+    <string name="past_perfect_continuous_tense">Past Perfect Continuous</string>
+    <string name="immediate_past">Immediate Past</string>
+    <string name="past_continuous">Past Continuous</string>
+    <string name="future">Future</string>
+    <string name="imperative">Imperative</string>
+    <string name="subjunctive">Subjunctive</string>
+    <string name="passive">Passive</string>
+    <string name="reflexive">Reflexive</string>
+    <string name="irregular_verbs">Irregular Verbs</string>
+
+    <!-- Others recyclerview items-->
+    <string name="days_months_years">Days, Months, Years</string>
+
+
     <string name="hello_blank_fragment">Present Tense Fragment</string>
     <string name="present_perfect_tense">Present Perfect Tense</string>
 

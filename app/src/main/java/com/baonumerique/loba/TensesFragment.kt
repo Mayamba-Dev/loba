@@ -68,16 +68,38 @@ class TensesFragment : Fragment() {
         sectionArraylist = arrayListOf<Tenses>()
 
         imageid = arrayOf(
-            R.drawable.ic_baseline_library_books_24,
             R.drawable.ic_baseline_menu_book_24,
-            R.drawable.ic_baseline_collections_bookmark_24
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24,
+            R.drawable.ic_baseline_menu_book_24
 
         )
 
         heading = arrayOf(
-            getString(R.string.present_perfect),
             getString(R.string.present_tense),
-            getString(R.string.past_tense)
+            getString(R.string.present_continuous),
+            getString(R.string.present_perfect),
+            getString(R.string.simple_past),
+            getString(R.string.past_perfect),
+            getString(R.string.past_perfect_continuous_tense),
+            getString(R.string.immediate_past),
+            getString(R.string.past_continuous),
+            getString(R.string.future),
+            getString(R.string.imperative),
+            getString(R.string.subjunctive),
+            getString(R.string.passive),
+            getString(R.string.reflexive),
+            getString(R.string.irregular_verbs)
 
         )
 
